@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C++ / compiled extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Datasets (Large files, >160MB, download separately from Kaggle)
+data/
+skin_type_classification_dataset/
+*.zip
+*.tar.gz
+
+# Processed binary numpy features (large files)
+outputs/processed_data/*.npz
+
+# Model binaries if too large (uncomment if needed)
+# outputs/models/*.joblib
+
+# IDEs & OS generated files
+~$*
+*.tmp
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini

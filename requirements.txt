@@ -1,0 +1,29 @@
+# ==============================================================================
+# HỌC VIỆN / TRƯỜNG ĐẠI HỌC - ĐỒ ÁN MÔN HỌC XỬ LÝ ẢNH SỐ (DIGITAL IMAGE PROCESSING)
+# Đề tài: Phân loại loại da mặt (Oily, Dry, Normal Skin Types) bằng Xử lý ảnh số & Học máy
+# File: requirements.txt
+# ==============================================================================
+
+# Core Scientific & Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# Computer Vision & Image Processing
+opencv-python>=4.8.0
+pillow>=10.0.0
+scikit-image>=0.22.0
+
+# Machine Learning & Evaluation
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Visualization & Reporting
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Web Application & Interactive Interface
+streamlit>=1.30.0
+
+# Progress Tracking & Utilities
+tqdm>=4.66.0
