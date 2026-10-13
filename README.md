@@ -97,7 +97,7 @@ Dự án sử dụng bộ dữ liệu **"Oily, Dry and Normal Skin Types Dataset
    ├── valid/{combination, dry, normal, oily}
    └── test/{combination, dry, normal, oily}
    ```
-*(Hệ thống đã tích hợp sẵn cơ chế tự động phát hiện đường dẫn dữ liệu ưu tiên: `skin_type_classification_dataset` $\rightarrow$ `data` $\rightarrow$ các thư mục ứng viên khác).*
+*(Hệ thống đã tích hợp sẵn cơ chế tự động phát hiện đường dẫn dữ liệu ưu tiên: `skin_type_classification_dataset` -> `data` -> các thư mục ứng viên khác).*
 
 ---
 
