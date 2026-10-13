@@ -75,13 +75,6 @@ cd [đường_dẫn_tới_thư_mục_XLA]
 # 2. Cài đặt toàn bộ phụ thuộc từ requirements.txt
 pip install -r requirements.txt
 ```
-
-> **Lưu ý trên Windows**: Để đảm bảo hiển thị tiếng Việt và các ký tự đặc biệt (`✓`, `★`) mượt mà trên PowerShell / Command Prompt mà không bị lỗi `UnicodeEncodeError`, bạn có thể chạy lệnh sau trước khi thực thi script:
-> ```powershell
-> $env:PYTHONUTF8=1
-> ```
-> *(Trong mã nguồn dự án đã tích hợp sẵn cơ chế tự động reconfigure UTF-8 ở đầu các file script).*
-
 ---
 
 ## 4. CHUẨN BỊ DỮ LIỆU (DATASET)
