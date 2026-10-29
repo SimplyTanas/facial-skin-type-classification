@@ -142,17 +142,8 @@ python phase2_build_pipeline.py --use-pca --pca-components 0.95
 Chạy bộ kiểm thử tự động để đảm bảo tính đồng bộ của toàn bộ các hàm tiền xử lý, phân đoạn da và không gian màu:
 
 ```bash
-python tests/test_phase2.py
+python tests/test_phase2.
 ```
-
-### 5.4. Tự động Xuất Báo cáo Học thuật Word (.docx)
-Chuyển đổi báo cáo Chương 3 Markdown sang văn bản Word hoàn chỉnh chuẩn đồ án tốt nghiệp:
-
-```bash
-python docs/generate_chapter3_docx.py
-```
-> Tệp kết quả được lưu tại: [docs/chuong3_khao_sat_du_lieu.docx](file:///c:/Users/baota/Downloads/XLA/docs/chuong3_khao_sat_du_lieu.docx).
-
 ---
 
 ## 6. KẾT QUẢ THỰC NGHIỆM ĐỊNH LƯỢNG
